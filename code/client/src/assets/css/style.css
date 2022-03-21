@@ -1,0 +1,23 @@
+@import "https://use.fontawesome.com/releases/v5.5.0/css/all.css";
+body{
+	color: #f3f3f3;
+	position: relative;
+	min-width: 970px;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 12px;
+	line-height: 16px;
+}
+footer {
+	width:950px;
+	margin:0 auto;
+	color:#a7a7a7;
+	font-size:12px;
+	line-height:22px;
+	padding:15px 0;
+	overflow:hidden;	
+}
+.copyright {
+	margin-top:12px;
+	margin-left:50%;
+	float:left;
+}

@@ -1,0 +1,39 @@
+
+#ModalHeader{
+color:black;
+}
+
+.modal-backdrop {
+    background-color: black;
+  }
+
+  .modal-content {
+    background-color: #720000;
+    color: black;
+  }
+
+  .color-nav{
+    background-color: #a3a3a3;
+    color:white;
+  }
+
+  .navItem {
+    color: white;
+  }
+
+  .custom-nav {
+    margin-top: 20px;
+}
+
+Button{
+  margin-top: 15px;
+  margin-right:15px;
+  background-color: red;
+  outline-color: red;
+  border: red;
+  color: red;
+}
+
+.BookApp2{
+  margin-top: 55px;
+}
