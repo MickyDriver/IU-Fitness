@@ -16,7 +16,7 @@ class SignInSuccess extends Component {
 <NavBar />
 
 <div class="w-100 d-flex flex-column">
-		<div id="Header2"><br />WELCOME   %USER%!</div>
+		<div id="Header2"><br />WELCOME %USER%!</div>
 
 
 

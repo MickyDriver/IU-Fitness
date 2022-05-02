@@ -107,7 +107,6 @@ export default class CreateEvent extends Component {
             <tr>
               <th>Date</th>
               <th>Time</th>
-              <th>Duration</th>
             </tr>
           </thead>
           <tbody>

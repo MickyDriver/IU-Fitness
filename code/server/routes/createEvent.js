@@ -7,6 +7,7 @@ const staticConfig = require("../staticConfig");
 const moment = require("moment-timezone");
 moment.tz.setDefault(staticConfig.timezone);
 
+//route appointment
 router.route("/").post((req, res) => {
   res.setHeader("Access-Control-Allow-Origin", "*");
   res.send("New appointment added");

@@ -8,7 +8,7 @@ const moment = require("moment-timezone");
 moment.tz.setDefault(staticConfig.timezone);
 
 let occupiedSlots = [];
-
+//export available slots
 router.route("/").post((req, res) => {
   res.setHeader("Access-Control-Allow-Origin", "*");
    let reqDate = req.query.reqDate;

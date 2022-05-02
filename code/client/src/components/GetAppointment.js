@@ -114,7 +114,6 @@ export default class CreateEvent extends Component {
       hr = moment(selectedSlot).hours(),
       min = moment(selectedSlot).minutes();
 
-    // let eventDateTime = new Date(yr, month, day, hr, min, 0);
     let eventDateTime = moment
       .tz([yr, month, day, hr, min], "America/New_York")
       .format();

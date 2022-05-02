@@ -7,13 +7,13 @@ moment.tz.setDefault(staticConfig.timezone);
 router.route("/").post((req, res) => {
   reqStart = moment(req.body.reqStart)
     .set({ hour: 0, minute: 0, second: 0 })
-    // .tz(staticConfig.timezone)
+    .tz(staticConfig.timezone)
     .toDate();
   reqEnd = moment(req.body.reqEnd)
     .set({ hour: 23, minute: 59, second: 59 })
-    // .tz(staticConfig.timezone)
+    .tz(staticConfig.timezone)
     .toDate();
-  console.log(reqStart);
+  console.log(reqStart); 
   console.log(reqEnd);
   let eventsList = [];
   db.collection("events")

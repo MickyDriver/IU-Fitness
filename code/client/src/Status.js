@@ -28,7 +28,7 @@ const BookingStatus = () => {
       <p>Date: {date}</p>
       <p>Time: {time}</p>
       <p>duration: {duration}</p>
-      <a href="/">Back to Home</a>
+      <a href="/">Back</a>
     </div>
   );
 };
